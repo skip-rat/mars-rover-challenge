@@ -12,7 +12,7 @@ screen-state.ts         offscreen buffers for rendering game state to the screen
 screen-utils.ts         helps to format and colourise screen output etc
 
 input.ts                prompts user for input
-validator.ts            checks user input is valid
+validator.ts            check user input is valid
 
 setup.ts                prompts user for initial game conditions
 initialise.ts           initialises the game ready to play
