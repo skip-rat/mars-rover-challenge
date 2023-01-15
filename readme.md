@@ -30,7 +30,8 @@ game.ts                 controls the flow of the game as it is played
 This is due to each alien having a (random) chance to move 1 cell after the current rover being
 moved has executed a single command (rotate or move 1 cell)
 
-Realistically the game is best played with a smaller number of rovers and aliens than the max.
+Realistically the game is best played with a smaller number of rovers and aliens than the max. Also 
+ensure you play in full screen mode i.e. terminal is full screen
 
 2. Rover are shown as 'R' on the map and aliens as 'A'
 The current rover being moved is show as an arrow to indicate the direction it is facing (<^v>)
@@ -39,6 +40,8 @@ During the aliens turn to move they can take out a number of rovers. If the curr
 with an arrow) is taken out, the next available rover will now be marked. So during the aliens
 turn, the arrow marking the current rover can move about the screen, as each previous current rover
 is removed by an alien.
+
+
 
 
 
